@@ -1,2 +1,2 @@
-# mghwajin.github.io/index.html
+# mghwajin.github.io/
 Jin Hae Kim's digital portfolio
