@@ -1,2 +1,2 @@
 # mghwajin.github.io/mghwajin.github.io
-Jin Hae Kim's digital portfolio
+Jin H.K's digital portfolio
