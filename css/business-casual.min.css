@@ -129,6 +129,24 @@ p{
 		width:45%
 		}
 	}
+@media (min-width:768px) {
+	.intro .intro-img {
+	width:50%;float:right
+	}
+	.intro .intro-text {
+		left:0;
+		width:40%;
+		margin-top:2rem;
+		position:absolute;
+	}
+	.intro .intro-text .intro-button{
+		width:80%;
+		left:0;
+		position:absolute;
+		bottom:-3rem
+		}
+	
+	}
 .cta{
 	padding-top:5rem;
 	padding-bottom:5rem;
