@@ -5,11 +5,13 @@
  */
  body{
 	 font-family:Raleway;
-	 background:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.4))),url(../img/bg.jpg);
-	 background:linear-gradient(rgba(0,0,0,.30)),url(../img/bg.jpg);
+	 background:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.1))),url(../img/bg_pattern.png);
+	 background:linear-gradient(rgba(0,0,0,1)),url(../img/bg_pattern.png);
 	 background-attachment:fixed;
+	 background-repeat: no-repeat;
 	 background-position:center;
-	 background-size:cover
+	 background-size: auto;
+	 background-color: black;
 	 }
 h1,h2,h3,h4,h5,h6{
 	font-family:Raleway;
@@ -17,9 +19,21 @@ h1,h2,h3,h4,h5,h6{
 p{
 	line-height:1.75
 	}
+hr{
+	height:1px;
+	color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.5);
+	border: none;
+	}
+
+a {
+	color: #e6a756;
+}
+		
+		
  
  .text-faded{
-	 color:rgba(255,255,255,.3)
+	 color:rgba(255,255,255,.9)
 	 }
 .site-heading{
 	margin-top:5rem;
@@ -33,9 +47,11 @@ p{
 	 display:block;
 	 font-size:2rem;
 	 font-weight:800;
+
 	 }
 .site-heading .site-heading-lower{
-	font-size:5rem;font-weight:100;
+	font-size:5rem;
+	font-weight:100;
  line-height:4rem
  }
  
@@ -49,48 +65,58 @@ p{
 .section-heading .section-heading-upper{
 	display:block;
 	font-size:1rem;
-	font-weight:800
+	font-weight:800;
+	color: #ffffff;
 	}
 
 .section-heading .section-heading-lower{
-	display:block;font-size:3rem;font-weight:100
+	display:block;
+	font-size:3rem;
+	font-weight:100;
+	color: #ffffff;
 	}
 .bg-faded{
-	background-color:rgba(255,255,255,.85)
+	background-color:rgba(15,15,15,.75)
 	}
 
 
 #mainNav{
-	background-color:rgba(55,10,75,.8);
+	background-color:rgba(90,65,34,.25);
 	font-family:Raleway;
 }
 .navbar {
   position: fixed;
-  top: 0;
+  height: 75px;
   width: 100%;
-  height: 50px;
+  top:0;
+  left: 0;
+  padding-top:20px;
   z-index: 2;
 	}
 #mainNav 
 .navbar-brand{
 	color:#e6a756
 	}
+
 #mainNav 
 .navbar-nav .nav-item .nav-link{
-	color:rgba(255,255,255,1);font-weight:800
+	padding: 6px 8px 6px 16px;
+	display: block;
+	color:rgba(255,255,255,1);
+	font-weight:800;
 	}
 #mainNav 
 .navbar-nav .nav-item.active .nav-link{
 	color:#e6a756
 	}
 
-@media (max-width:768px){
+@media (max-width:150px){
 	#mainNav 
 	.navbar-nav .nav-item .nav-link{
 		font-size:.9rem
 		}
 	#mainNav .navbar-nav .nav-item .nav-link:hover{
-		color:rgba(255,255,255,1)
+		color:rgba(255,255,255,0.9)
 		}
 	#mainNav 
 		.navbar-nav .nav-item.active .nav-link:hover{
@@ -150,7 +176,7 @@ p{
 .cta{
 	padding-top:5rem;
 	padding-bottom:5rem;
-	background-color:rgba(75,20,75,.2)
+	background-color:rgba(255,255,255,.2)
 	}
 
 .cta .cta-inner{
@@ -172,12 +198,13 @@ p{
 
 @media (min-width:992px){
 	.about-heading .about-heading-img{
-		position:relative;z-index:0
+		position:relative;
+		z-index:0;
 		}
 	.about-heading .about-heading-content{
 		margin-top:-5rem;
 		position:relative;
-		z-index:1
+		z-index:1;
 		}
 	}
 @media (min-width:992px){
@@ -204,7 +231,7 @@ p{
 	font-size:.9rem
 	}
 .list-hours .list-hours-item{
-	border-bottom:1px solid rgba(160,100,220,.5);
+	border-bottom:1px solid rgba(45,45,45,.5);
 	padding-bottom:.25rem;
 	margin-bottom:1rem;
 	font-style:italic
@@ -224,7 +251,7 @@ p{
 	font-size:1.2rem
 	}
 .footer{
-	background-color:rgba(75,20,75,.5)
+	background-color:rgba(20,20,20,.3)
 	}
 .text-primary{
 	color:#e6a756!important
@@ -233,8 +260,8 @@ p{
 	background-color:#e6a756!important
 	}
 .btn{
-	-webkit-box-shadow:0 3px 3px 0 rgba(33,37,41,.1);
-	box-shadow:0 3px 3px 0 rgba(33,37,41,.1)
+	-webkit-box-shadow:0 3px 3px 0 rgba(35,35,35,.1);
+	box-shadow:0 3px 3px 0 rgba(35,35,35,.1)
 	}
 .btn-primary{
 	background-color:#e6a756;

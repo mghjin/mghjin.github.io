@@ -76,12 +76,12 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(30, 5, 30, 0.8);
+  background-color: rgba(14, 16, 30, 0.8);
   font-family: 'Raleway';
 }
 
 #mainNav .navbar-brand {
-  color: #55469c;
+  color: #ffffff;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -101,7 +101,7 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #55469c;
+    color: #ffffff;
   }
 }
 
